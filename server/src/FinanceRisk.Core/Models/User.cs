@@ -6,6 +6,8 @@ namespace FinanceRisk.Core.Models
         public string Email { get; set; } = string.Empty;
         public string PasswordHash { get; set; } = string.Empty;
 
+        public decimal Savings { get; set; }
+
         public ICollection<RiskReport> RiskReports { get; set; } = new List<RiskReport>();
         public ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
     }
