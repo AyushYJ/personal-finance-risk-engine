@@ -52,3 +52,35 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Environment variables
+.env
+.env.*
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+# Frontend files
+node_modules/
+dist/
+build/
+.cache/
+.vite/
+*.tsbuildinfo
+
+# IDE
+.vs/
+.idea/
+*.suo
+*.user
+.vscode/
+
+# Database
+*.sql
+*.dump
+*.bak
+postgres-data/
+db-data/
+
+# Docker
+docker-data/
